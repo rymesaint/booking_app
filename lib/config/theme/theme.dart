@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 export 'app_color.dart';
+export 'app_dimension.dart';
 export 'app_font.dart';
 
 class CustomTheme {
@@ -15,5 +17,6 @@ class CustomTheme {
     // Notice that the counter didn't reset back to zero; the application
     // is not restarted.
     primarySwatch: Colors.blue,
+    fontFamily: GoogleFonts.poppins().fontFamily,
   );
 }

@@ -2,6 +2,7 @@ part of 'onboarding_cubit.dart';
 
 // ignore: must_be_immutable
 class OnboardingState extends Equatable {
+  final PageController pageController = PageController();
   int currentIndex = 0;
   OnboardingState();
 
@@ -36,5 +37,6 @@ class OnboardingState extends Equatable {
         onboardingList,
         currentIndex,
         clone(),
+        pageController,
       ];
 }

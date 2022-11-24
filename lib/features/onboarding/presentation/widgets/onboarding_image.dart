@@ -9,12 +9,14 @@ class OnBoardingImage extends StatelessWidget {
   Widget build(BuildContext context) {
     final cubit = BlocProvider.of<OnboardingCubit>(context);
     return Expanded(
-      child: PageView.builder(
+        child: BlocBuilder<OnboardingCubit, OnboardingState>(
+      builder: (context, state) => PageView.builder(
         onPageChanged: cubit.goTo,
-        itemCount: cubit.state.onboardingList.length,
+        controller: state.pageController,
+        itemCount: state.onboardingList.length,
         itemBuilder: (context, index) =>
-            Image.asset(cubit.state.onboardingList[index].image!),
+            Image.asset(state.onboardingList[index].image!),
       ),
-    );
+    ));
   }
 }
