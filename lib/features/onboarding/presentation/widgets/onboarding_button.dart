@@ -1,4 +1,4 @@
-import 'package:booking_app/features/onboarding/presentation/bloc/onboarding_cubit.dart';
+import 'package:booking_app/features/onboarding/presentation/cubit/onboarding_cubit.dart';
 import 'package:booking_app/shared_component/primary_button.dart';
 import 'package:booking_app/shared_component/secondary_button.dart';
 import 'package:booking_app/utils/utils.dart';
@@ -15,7 +15,7 @@ class OnBoardingButton extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SecondaryButton(
-          onPressed: cubit.skip,
+          onPressed: () => cubit.skip(context),
           label: 'Skip',
           type: SecondaryButtonType.type3,
           width: 147.5,

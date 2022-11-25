@@ -1,5 +1,5 @@
 import 'package:booking_app/config/config.dart';
-import 'package:booking_app/features/onboarding/presentation/bloc/onboarding_cubit.dart';
+import 'package:booking_app/features/onboarding/presentation/cubit/onboarding_cubit.dart';
 import 'package:booking_app/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

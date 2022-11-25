@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:booking_app/features/onboarding/data/models/onboarding/onboarding.dart';
 import 'package:booking_app/features/onboarding/src/image_string.dart';
+import 'package:booking_app/features/welcome/presentation/pages/welcome_page.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 
@@ -35,5 +36,9 @@ class OnboardingCubit extends Cubit<OnboardingState> {
     }
   }
 
-  void skip() {}
+  void skip(BuildContext context) {
+    Navigator.of(context).push(MaterialPageRoute(
+      builder: (context) => const WelcomePage(),
+    ));
+  }
 }

@@ -11,6 +11,7 @@ enum SecondaryButtonType {
 class SecondaryButton extends StatelessWidget {
   final SecondaryButtonType type;
   final void Function()? onPressed;
+  final Color? backroundColor;
   final String label;
   final double? width;
 
@@ -19,6 +20,7 @@ class SecondaryButton extends StatelessWidget {
     this.type = SecondaryButtonType.type1,
     required this.onPressed,
     required this.label,
+    this.backroundColor = AppColor.ink06,
     this.width = 78,
   });
 
@@ -39,7 +41,7 @@ class SecondaryButton extends StatelessWidget {
         onPressed: onPressed,
         style: OutlinedButton.styleFrom(
           side: const BorderSide(color: AppColor.ink01),
-          backgroundColor: AppColor.ink06,
+          backgroundColor: backroundColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(4),
           ),
@@ -60,7 +62,7 @@ class SecondaryButton extends StatelessWidget {
         onPressed: onPressed,
         style: OutlinedButton.styleFrom(
           side: const BorderSide(color: AppColor.ink01),
-          backgroundColor: AppColor.ink06,
+          backgroundColor: backroundColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(4),
           ),
@@ -75,13 +77,13 @@ class SecondaryButton extends StatelessWidget {
 
   Widget _type3() {
     return SizedBox(
-      height: 32.h,
+      height: 40.h,
       width: width?.w,
       child: ElevatedButton(
         onPressed: onPressed,
         style: OutlinedButton.styleFrom(
           side: const BorderSide(color: AppColor.ink01),
-          backgroundColor: AppColor.ink06,
+          backgroundColor: backroundColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(4),
           ),

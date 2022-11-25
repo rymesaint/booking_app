@@ -1,4 +1,4 @@
-import 'package:booking_app/features/onboarding/presentation/bloc/onboarding_cubit.dart';
+import 'package:booking_app/features/onboarding/presentation/cubit/onboarding_cubit.dart';
 import 'package:booking_app/features/onboarding/presentation/widgets/onboarding_widget.dart';
 import 'package:booking_app/utils/utils.dart';
 import 'package:flutter/material.dart';
@@ -18,8 +18,6 @@ class OnboardingPage extends StatelessWidget {
   }
 
   Widget _buildPage(BuildContext context) {
-    final cubit = BlocProvider.of<OnboardingCubit>(context);
-
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.only(top: 16, left: 16, right: 16),
