@@ -4,10 +4,10 @@ class ImageString {
   static const String absract3 = 'assets/images/Città Abstract-3.png';
   static const String absract = 'assets/images/Città Abstract.png';
   static const String backdrop = 'assets/images/Backdrop.png';
-  static const String avatar1 = 'assets/images/Città Avatar-1.png';
-  static const String avatar2 = 'assets/images/Città Avatar-2.png';
-  static const String avatar3 = 'assets/images/Città Avatar-3.png';
-  static const String avatar = 'assets/images/Città Avatar.png';
+  static const String avatar1 = 'assets/images/Avatar-1.png';
+  static const String avatar2 = 'assets/images/Avatar-2.png';
+  static const String avatar3 = 'assets/images/Avatar-3.png';
+  static const String avatar = 'assets/images/Avatar.png';
   static const String cofeeShop1 = 'assets/images/Città Coffee Shop-1.png';
   static const String cofeeShop2 = 'assets/images/Città Coffee Shop-2.png';
   static const String cofeeShop = 'assets/images/Città Coffee Shop.png';

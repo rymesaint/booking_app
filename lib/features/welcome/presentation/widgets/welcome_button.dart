@@ -18,7 +18,7 @@ class WelcomeButton extends StatelessWidget {
           children: [
             Expanded(
               child: PrimaryButton(
-                onPressed: () => print('ok'),
+                onPressed: () {},
                 label: 'Explore',
                 type: PrimaryButtonType.type3,
               ),
