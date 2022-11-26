@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 export 'app_color.dart';
 export 'app_dimension.dart';
 export 'app_font.dart';
+export 'app_shadow.dart';
 
 class CustomTheme {
   static ThemeData themeData = ThemeData(

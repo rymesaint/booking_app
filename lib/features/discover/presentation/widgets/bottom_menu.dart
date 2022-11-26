@@ -32,7 +32,7 @@ class BottomMenu extends StatelessWidget {
             ),
             _buildItem(
               icon: Icons.favorite,
-              label: 'Profile',
+              label: 'Favorites',
               onTap: () => cubit.changeIndex(1),
               isActive: cubit.state.selectedIndex == 1,
             ),
