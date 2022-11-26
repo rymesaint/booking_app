@@ -1,17 +1,12 @@
-# booking_app
+# Booking App
 
-A new Flutter project.
+Flutter Project - [Booking App from thengoding.com by Cong Fandi](https://thengoding.com/)
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a tutorial application guided by Cong Fandi how to implement slicing from Figma Design and implement it using cubit state management.
 
-A few resources to get you started if this is your first Flutter project:
+This is how the images of application when running on iOS Simulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# booking_app
