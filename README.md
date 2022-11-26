@@ -1,5 +1,7 @@
 # Booking App
 
+[![Flutter Project Analyze](https://github.com/rymesaint/booking_app/actions/workflows/dart.yml/badge.svg)](https://github.com/rymesaint/booking_app/actions/workflows/dart.yml)
+
 Flutter Project - [Booking App from thengoding.com by Cong Fandi](https://thengoding.com/)
 
 
