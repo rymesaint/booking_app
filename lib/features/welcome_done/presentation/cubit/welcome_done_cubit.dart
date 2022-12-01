@@ -10,7 +10,7 @@ class WelcomeDoneCubit extends Cubit<WelcomeDoneState> {
 
   void discover(BuildContext context) {
     Navigator.of(context).push(MaterialPageRoute(
-      builder: (context) => const DiscoverPage(),
+      builder: (context) => DiscoverPage(),
     ));
   }
 }

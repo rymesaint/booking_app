@@ -8,10 +8,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class DiscoverPage extends StatelessWidget {
-  const DiscoverPage({super.key});
+  DiscoverPage({super.key});
+  final ApiClient apiClient = ApiClient();
 
   @override
   Widget build(BuildContext context) {
+    apiClient.get(Uri.parse(
+        "https://6e0e6ca5-2620-4f1f-a96e-4256257bce39.mock.pstmn.io/api/v1/trips"));
     return BlocProvider(
       create: (BuildContext context) => DiscoverCubit(),
       child: Builder(
